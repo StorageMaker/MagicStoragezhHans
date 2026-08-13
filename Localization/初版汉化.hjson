@@ -1,0 +1,1431 @@
+# I recommend using the hjson key to translate all future text additions
+# Also add them into other hjsons, but mark them with "//", and wait for translators to translate the text
+# -Crapsky233
+
+Mods: {
+	MagicStorage: {
+		Items: {
+			BiomeGlobe: {
+				DisplayName: 生态球
+				Tooltip:
+					'''
+					“世界的力量凝聚环绕在你的指尖”
+					制作物品时提供雪原环境、灵雾环境、水、熔岩、蜂蜜、恶魔/猩红祭坛的制作环境
+					放在物品栏或制作接口的制作站槽位内即可生效
+					放在物品栏时，不需要处在篝火旁即可将棒棒棉花糖烤熟
+					放在制作接口的制作站槽位时，可直接用棉花糖制作熟棉花糖
+					丢出去之后会像沙滩球一样弹弹弹，但不会消耗自身
+					'''
+			}
+
+			CraftingAccess: {
+				DisplayName: 制作接口
+				Tooltip: 能够使用存储系统中的物品进行制作
+			}
+
+			CreativeStorageUnit: {
+				DisplayName: 存储单元(创造模式)
+				    Tooltip:
+					'''
+					存储了无限量的所有物品。
+					不会影响所属存储系统的存储上限
+					''' 
+			}
+
+			Locator: {
+				DisplayName: 定位器
+				Tooltip:
+					'''
+					<right>存储中枢以保存定位
+					<right>远程中枢来导入存储中枢的定位
+					'''
+			}
+
+			LocatorDisk: {
+				DisplayName: 定位磁盘
+				Tooltip:
+					'''
+					<right>存储中枢以保存定位
+					<right>远程中枢来导入存储中枢的定位
+					使用后不消耗自身
+					'''
+			}
+
+			PortableAccess: {
+				DisplayName: 便携远程存储装置(终极)
+				Tooltip:
+					'''
+					<right>存储中枢以保存其定位,当前暂未定位到任何存储中枢
+					使用以访问目标位置的存储中枢
+					无距离限制
+					'''
+			}
+
+			PortableCraftingAccess: {
+				DisplayName: 便携远程制作装置(终极)
+				Tooltip:
+					'''
+					<right>制作接口以保存其定位,当前暂未定位到任何制作接口
+					使用以访问目标位置的制作接口
+					无距离限制
+					'''
+			}
+
+			RadiantJewel: {
+				DisplayName: 璀璨棱晶
+				Tooltip: 
+					'''
+					“辐射出耀眼的光芒”
+					'''
+			}
+
+			RemoteAccess: {
+				DisplayName: 远程中枢
+				Tooltip:
+					'''
+					可远程打开某个存储中枢
+					对于制作接口之类的存储元件来说，远程中枢的效果与存储中枢相同
+					'''
+			}
+
+			ShadowDiamond: {
+				DisplayName: 暗影钻石
+				Tooltip: 
+					'''
+					“那道光所余留的痕迹依旧”
+					'''
+			}
+
+			SnowBiomeEmulator: {
+				DisplayName: 破损雪花球
+				Tooltip: 
+					'''
+					允许制作接口制作需要身处雪地环境的配方
+					'''
+			}
+
+			StorageAccess: {
+				DisplayName: 存储访问器
+				Tooltip: 可作为除存储中枢外，访问存储系统的一个额外访问点
+			}
+
+			StorageComponent: {
+				DisplayName: 存储组件
+				Tooltip: 一切魔法存储元件的基础制作材料
+			}
+
+			StorageConnector: {
+				DisplayName: 存储连接器
+				Tooltip: 可用于连接不同的魔法存储元件，使其并入同一存储系统内
+			}
+
+			StorageDeactivator: {
+				DisplayName: 存储单元魔杖
+				Tooltip:
+					'''
+					停用/启用相应的存储单元
+					存储中枢会尝试将停用的存储单元内的物品转移到其他存储单元内
+					若停用的存储单元未与任何存储中枢连接，则其本身并不会转移所存物品
+					(原文仅说明停用的存储单元会转移自身物品，但这实际是存储中枢的作用效果)
+					'''
+			}
+
+			StorageHeart: {
+				DisplayName: 存储中枢
+				Tooltip:
+					'''
+					魔法存储系统的最关键元件
+					一个存储系统需要存储中枢来运作
+					'''
+			}
+
+			StorageUnit: {
+				DisplayName: 存储单元(基础)
+				Tooltip:
+					'''
+					在魔法存储系统中存储物品的元件
+					可存储至多 40 组物品
+					'''
+			}
+
+			StorageUnitBlueChlorophyte: {
+				DisplayName: 存储单元(蓝色叶绿)
+				Tooltip:
+					'''
+					在魔法存储系统中存储物品的元件
+					可存储至多 240 组物品
+					'''
+			}
+
+			StorageUnitCrimtane: {
+				DisplayName: 存储单元(猩红)
+				Tooltip:
+					'''
+					在魔法存储系统中存储物品的元件
+					可存储至多 80 组物品
+					'''
+			}
+
+			StorageUnitDemonite: {
+				DisplayName: 存储单元(魔金)
+				Tooltip:
+					'''
+					在魔法存储系统中存储物品的元件
+					可存储至多 80 组物品
+					'''
+			}
+
+			StorageUnitHallowed: {
+				DisplayName: 存储单元(神圣)
+				Tooltip:
+					'''
+					在魔法存储系统中存储物品的元件
+					可存储至多 160 组物品
+					'''
+			}
+
+			StorageUnitHellstone: {
+				DisplayName: 存储单元(狱岩)
+				Tooltip:
+					'''
+					在魔法存储系统中存储物品的元件
+					可存储至多 120 组物品
+					'''
+			}
+
+			StorageUnitLuminite: {
+				DisplayName: 存储单元(夜明)
+				Tooltip:
+					'''
+					在魔法存储系统中存储物品的元件
+					可存储至多 320 组物品
+					'''
+			}
+
+			StorageUnitTerra: {
+				DisplayName: 存储单元(泰拉)
+				Tooltip:
+					'''
+					在魔法存储系统中存储物品的元件
+					可存储至多 640 组物品
+					'''
+			}
+
+			StorageUnitTiny: {
+				DisplayName: 存储单元(小)
+				Tooltip:
+					'''
+					在魔法存储系统中存储物品的小元件
+					可存储至多 4 组物品
+					'''
+			}
+
+			UpgradeBlueChlorophyte: {
+				DisplayName: 存储升级珠(蓝色叶绿)
+				Tooltip:
+					'''
+					将存储单元(神圣)升级至240格容量
+					<right>一个存储单元(神圣)来使用
+					'''
+			}
+
+			UpgradeCrimtane: {
+				DisplayName: 存储升级珠(猩红)
+				Tooltip:
+					'''
+					将存储单元(基础)升级至80格容量
+					<right>一个存储单元(基础)来使用
+					'''
+			}
+
+			UpgradeDemonite: {
+				DisplayName: 存储升级珠(魔金)
+				Tooltip:
+					'''
+					将存储单元(基础)升级至80格容量
+					<right>一个存储单元(基础)来使用
+					'''
+			}
+
+			UpgradeHallowed: {
+				DisplayName: 存储升级珠(神圣)
+				Tooltip:
+					'''
+					将存储单元(狱岩)升级至160格容量
+					<right>一个存储单元(狱岩)来使用
+					'''
+			}
+
+			UpgradeHellstone: {
+				DisplayName: 存储升级珠(狱岩)
+				Tooltip:
+					'''
+					将存储单元(猩红)/(魔金)升级至120格容量
+					<right>一个存储单元(猩红)/(魔金)来使用
+					'''
+			}
+
+			UpgradeLuminite: {
+				DisplayName: 存储升级珠(夜明)
+				Tooltip:
+					'''
+					将存储单元(蓝色叶绿)升级至320格容量
+					<right>一个存储单元(蓝色叶绿)来使用
+					'''
+			}
+
+			UpgradeTerra: {
+				DisplayName: 存储升级珠(泰拉)
+				Tooltip:
+					'''
+					将存储单元(夜明)升级至640格容量
+					<right>一个存储单元(夜明)来使用
+					'''
+			}
+
+			CrimsonAltar: {
+				DisplayName: 猩红祭坛
+				Tooltip: 可放置的猩红祭坛复制品，挖掉不会发生任何事。
+			}
+
+			DemonAltar: {
+				DisplayName: 恶魔祭坛
+				Tooltip: 可放置的恶魔祭坛复制品，挖掉不会发生任何事。
+			}
+
+			CombinedFurnitureStations1Item: {
+				DisplayName: 综合家具制作站(一级)
+				Tooltip: 结合了部分原版家具制作站的功能
+			}
+
+			CombinedFurnitureStations2Item: {
+				DisplayName: 综合家具制作站(二级)
+				Tooltip: 结合了全部原版家具制作站的功能
+			}
+
+			CombinedStations1Item: {
+				DisplayName: 综合制作站(一级)
+				Tooltip: 结合了部分原版非家具制作站的功能
+			}
+
+			CombinedStations2Item: {
+				DisplayName: 综合制作站(二级)
+				Tooltip: 结合了部分原版非家具制作站的功能，包含了上一级制作站的功能
+			}
+
+			CombinedStations3Item: {
+				DisplayName: 综合制作站(三级)
+				Tooltip: 结合了部分原版非家具制作站的功能，包含了上一级制作站的功能
+			}
+
+			CombinedStations4Item: {
+				DisplayName: 综合制作站(终级)
+				Tooltip: 结合了一切原版制作站和水、岩浆、蜂蜜制作环境的功能
+			}
+
+			EnvironmentAccess: {
+				DisplayName: 配置接口
+				Tooltip:
+					'''
+					一个用于供其他模组与魔法存储系统进行跨模组访问的元件
+					显示由其他模组添加的可开关的一系列跨模组功能模块，如果没有则不显示
+					可用功能:
+					<MODULES>
+					'''
+			}
+
+			PortableAccessPreHM: {
+				DisplayName: 便携远程存储装置(基础)
+				Tooltip:
+					'''
+					<right>存储中枢以保存定位，当前暂未定位到任何存储中枢
+					使用以访问定位的存储中枢
+					要使该物品能在晶塔附近使用，目标定位的存储中枢与任何有效晶塔的距离须在100格以内。
+					玩家只能在距离晶塔或定位的制作接口1000格范围内访问相应的存储中枢
+					访问距离较小
+					'''
+			}
+
+			PortableAccessHM: {
+				DisplayName: 便携远程存储装置(进阶)
+				Tooltip:
+					'''
+					<right>存储中枢以保存定位，当前暂未定位到任何存储中枢
+					使用以访问定位的存储中枢
+					要使该物品能在晶塔附近使用，目标定位的存储中枢与任何有效晶塔的距离须在200格以内。
+					玩家只能在距离晶塔或定位的制作接口3000格范围内访问相应的存储中枢
+					访问距离适中
+					'''
+			}
+
+			Config_GlowItemGlowing: {
+				DisplayName: Config//GlowItemGlowing
+				// Tooltip: ""
+			}
+
+			Config_GlowItemNotGlowing: {
+				DisplayName: Config//GlowItemNotGlowing
+				// Tooltip: ""
+			}
+
+			Config_RecipeFilterAvailable: {
+				DisplayName: Config//RecipeFilterAvailable
+				// Tooltip: ""
+			}
+
+			Config_RecipeFilterAll: {
+				DisplayName: Config//RecipeFilterAll
+				// Tooltip: ""
+			}
+
+			PortableCraftingAccessPreHM: {
+				DisplayName: 便携远程制作装置(基础)
+				Tooltip:
+					'''
+					<right>制作接口以保存定位，当前暂未定位到任何制作接口
+					使用以访问定位的制作接口
+					要使该物品能在晶塔附近使用，目标定位的制作接口与任何有效晶塔的距离须在100格以内。
+					玩家只能在距离晶塔或定位的制作接口1000格范围内访问相应的制作接口
+					访问距离较小
+					'''
+			}
+
+			PortableCraftingAccessHM: {
+				DisplayName: 便携远程制作装置(进阶)
+				Tooltip:
+					'''
+					<right>制作接口以保存定位，当前暂未定位到任何制作接口
+					使用以访问定位的制作接口
+					要使该物品能在晶塔附近使用，目标定位的制作接口与任何有效晶塔的距离须在200格以内。
+					玩家只能在距离晶塔或定位的制作接口3000格范围内访问相应的制作接口
+					访问距离适中
+					'''
+			}
+
+			DecraftingAccess: {
+				DisplayName: 微光接口
+				Tooltip: 能够使用存储系统中的物品进行微光嬗变
+			}
+
+			Shimmer_CoinLuck: {
+				DisplayName: Meta//Shimmer/Coin_Luck
+				Tooltip: ""
+			}
+
+			StorageCore: {
+				DisplayName: 存储核心(基础)
+				Tooltip: "{$Mods.MagicStorage.Items.StorageCore.CommonTooltip}"
+				CommonTooltip:
+					'''
+					存储了原本在存储单元中的物品
+					<right> 一个空存储单元以插入
+					<CAPACITY>
+					<HASH>
+					<BYTES>
+					'''
+				ItemsStored: "[c/{0}:{1} / {2} items]"
+				Hash: Data hash: {0:x08}
+				BytesUsed: "[c/{0}:{1} bytes]"
+			}
+
+			StorageCoreBlueChlorophyte.DisplayName: 存储核心(蓝色叶绿)
+			StorageCoreCrimtane.DisplayName: 存储核心(猩红)
+			StorageCoreDemonite.DisplayName: 存储核心(魔金)
+			StorageCoreHallowed.DisplayName: 存储核心(神圣)
+			StorageCoreHellstone.DisplayName: 存储核心(狱岩)
+			StorageCoreLuminite.DisplayName: 存储核心(夜明)
+			StorageCoreTerra.DisplayName: 存储核心(泰拉)
+
+			StorageExtractor: {
+				DisplayName: 存储核心扳手
+				Tooltip: 可将存储核心从存储单元中提取出来
+			}
+
+			StorageUnitEmpty: {
+				DisplayName: 空存储单元
+				Tooltip:
+					'''
+					在魔法存储系统中存储物品的元件
+					需要一个存储核心才能运作
+					手持存储核心右键单击即可将其插入
+					'''
+			}
+
+			StorageSecurity: {
+				DisplayName: 存储安全魔杖
+				Tooltip:
+					'''
+					<left> 存储中枢以打开安全网络
+					可将私人网络分配给该存储中枢
+					    设置了私人网络的存储中枢只能通过密码来访问
+						(该私人网络创建者无需输入密码即可访问)
+					'''
+			}
+
+			Error_ItemSlotRenderFail: {
+				// DisplayName: Error//ItemRender
+				// Tooltip: ""
+			}
+
+			Error_ItemNetReadFail: {
+				// DisplayName: Error//ItemClientRead
+				// Tooltip: ""
+			}
+		}
+
+		Projectiles.BiomeGlobeThrown.DisplayName: 生态球
+
+		NPCs: {
+			Golem: {
+				DisplayName: 自动机
+
+				TownNPCMood: {
+					Content: 系统运行中。
+					NoHome: 暴露于外界将加快生锈速率，请求尽快设置居住所。
+					LoveSpace: 已接受当前居住安排。
+					FarFromHome: 本单元必须尽快回家以为蓝魔法设备充能
+					DislikeCrowded: 附近检测到太多个体。
+					HateCrowded: 本单元请求独处。
+					LikeBiome: "{BiomeName}与蓝魔法相容。"
+					LoveBiome: "{BiomeName}与蓝魔法完美协调。"
+					DislikeBiome: 位于{BiomeName}，蓝魔法效率下降。
+					HateBiome: 位于{BiomeName}，蓝魔法不稳定。
+					LikeNPC: 检测到{NPCName}欣赏蓝魔法。
+					LoveNPC: 附近的{NPCName}个体对本单元拥有一切操纵权.
+					DislikeNPC: 本单元已后悔向{NPCName}提及蓝魔法。
+					HateNPC: "{NPCName}需要改变其试图将蓝魔法用于盈利的想法"
+					LikeNPC_Princess: "{NPCName}是我的创造者最好的朋友。"
+					Princess_LovesNPC: "{NPCName}是如此有趣的机器，它是如何运作的？"
+				}
+
+				# Census support
+				Census.SpawnCondition: '''"{$Mods.MagicStorage.Configs.MagicStorageServerConfig.allowAutomatonToMoveIn.Label}" 配置在 "{$Mods.MagicStorage.Configs.MagicStorageServerConfig.DisplayName}" 设置为启用'''
+			}
+		}
+
+		EnvironmentModule: {
+			UseInventoryModule: {
+				DisplayName: 使用制作接口/微光接口时，可直接使用物品栏内物品
+				DisabledTooltip: 该功能当前已禁用。
+			}
+
+			UseInventoryNoFavoritesModule: {
+				DisplayName: 使用制作接口/微光接口时，可直接使用物品栏内未收藏的物品
+				DisabledTooltip: 该功能当前已禁用。
+			}
+
+			JourneyInfiniteItems: {
+				DisplayName: 使用制作接口/微光接口时，可直接使用旅途模式研究过的物品
+				DisabledTooltip: 该功能仅供旅途模式人物使用。
+			}
+		}
+
+		Tiles: {
+			CraftingAccess.MapEntry: "{$Mods.MagicStorage.Items.CraftingAccess.DisplayName}"
+			CreativeStorageUnit.MapEntry: "{$Mods.MagicStorage.Items.CreativeStorageUnit.DisplayName}"
+			RemoteAccess.MapEntry: "{$Mods.MagicStorage.Items.RemoteAccess.DisplayName}"
+			StorageAccess.MapEntry: "{$Mods.MagicStorage.Items.StorageAccess.DisplayName}"
+			StorageComponent.MapEntry: "{$Mods.MagicStorage.Items.StorageComponent.DisplayName}"
+			StorageConnector.MapEntry: "{$Mods.MagicStorage.Items.StorageConnector.DisplayName}"
+			StorageHeart.MapEntry: "{$Mods.MagicStorage.Items.StorageHeart.DisplayName}"
+			StorageUnit.MapEntry: "{$Mods.MagicStorage.Items.StorageUnit.DisplayName}"
+			CombinedFurnitureStations1Tile.MapEntry: "{$Mods.MagicStorage.Items.CombinedFurnitureStations1Item.DisplayName}"
+			CombinedFurnitureStations2Tile.MapEntry: "{$Mods.MagicStorage.Items.CombinedFurnitureStations2Item.DisplayName}"
+			CombinedStations1Tile.MapEntry: "{$Mods.MagicStorage.Items.CombinedStations1Item.DisplayName}"
+			CombinedStations2Tile.MapEntry: "{$Mods.MagicStorage.Items.CombinedStations2Item.DisplayName}"
+			CombinedStations3Tile.MapEntry: "{$Mods.MagicStorage.Items.CombinedStations3Item.DisplayName}"
+			CombinedStations4Tile.MapEntry: "{$Mods.MagicStorage.Items.CombinedStations4Item.DisplayName}"
+			EnvironmentAccess.MapEntry: "{$Mods.MagicStorage.Items.EnvironmentAccess.DisplayName}"
+			EvilAltarTile.MapEntry: 恶魔祭坛
+			DecraftingAccess.MapEntry: "{$Mods.MagicStorage.Items.DecraftingAccess.DisplayName}"
+		}
+
+		GameTips: {
+			Automaton: 自动机可以教你魔法存储的所有知识。
+			ShadowDiamonds: 暗影钻石会在 Boss 被首次击败时掉落，可替代钻石制作魔法存储物品。
+			RadiantJewel: 璀璨棱晶掉落自月球领主, 用于制作 便携远程存储装置(终极) 与 存储升级珠(泰拉)。
+			StorageUpgrades: 存储空间不足？使用存储升级珠来升级你的存储单元！
+			RemoteStorage: 用定位器或定位磁盘保存一个存储中枢定位并将其导入到远程中枢，使你能在世界的其它位置远程访问这个存储中枢。
+			CombinedStations: 魔法存储提供了综合制作站来减少你放进制作接口中的制作站数量。
+			EnvironmentAccess: 配置接口允许其他模组给制作接口、微光接口添加新的“制作功能模块”，来扩展其原本的功能。
+			PortableAccess: 制作一个便携远程存储装置，可以让你在离家很远的情况下访问你的存储中枢。
+			StorageCores: 使用一个存储核心扳手来将存储核心从存储单元内提取出来，存储核心可再被插入进一个空存储单元。
+			DisableUnit: 使用一个存储单元魔杖来停用一个存储单元。停用的存储单元无法存储物品，并会在存储中枢的作用下将物品转移到其它启用的存储单元。
+			BiomeGlobe: 生态球可让你制作需要位于雪地环境、灵雾环境、篝火旁、水、熔岩、蜂蜜旁以及恶魔/猩红祭坛旁的配方。
+		}
+
+		Bestiary.Golem:
+			'''
+			一个由存储部件构成的自动装置，由难以捉摸的蓝魔法驱动。
+			它可以教授你有关魔法存储的一切知识。
+			'''
+
+		Dialogue: {
+			Golem: {
+				Greeting: 用户{0}您好。请问您是否想要了解一些关于魔法存储的信息？
+				Wizard: 尽管{0}看上去精通魔法，他仍不能理解蓝魔法的工作方式。实际上这并不能算纯粹的魔法。
+				NotLihzahrd: 请停止询问，本单元并非由丛林神庙砖构成。
+				Bluemagic: 蓝魔法是一种惊人的力量来源，低估它的能力是不明智的。
+				Violence: 你好 {0}。我的创造者忘记安装我的暴- 啊不，是自我防卫芯片。我已完成升级，现在可以投入战斗。
+				NoPlant: 本单元不含任何植物来源的有机物质。你肯定是认错对象了。
+				NeedPlant: "[c/ff0000:把那株植物给我。] *哔* 抱歉，{0}。本单元似乎执行了一个未授权的进程。"
+				NewTextAvailable: 你好 {0}。本单元已为你准备了一些新的帮助提示。
+				Help1:
+					'''
+					首先，你需要合成一些存储组件。这个物品是所有存储系统元件的基础物件，你可以在{0}那里了解到它能制作的配方。
+					制作配方: [rg/s10:Wood] [rg/s2:IronBar] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/StorageComponent]
+					'''
+				Help2:
+					'''
+					如果你已经获得了 [i:MagicStorage/StorageComponent] ，你现在需要制作一个存储中枢。存储中枢可以构建一个运行的存储系统，同时你可以用它来存取其中的物品。
+					制作配方: [i:MagicStorage/StorageComponent] [rg/s2:MagicStorage:AnyDiamond] [i/s3:Emerald] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/StorageHeart]
+					'''
+				Help3:
+					'''
+					放置一个 [i:MagicStorage/StorageHeart] 之后，你需要制作存储单元来为你的存储中枢存储物品。
+					制作配方: [i:MagicStorage/StorageComponent] [rg:MagicStorage:AnyChest] [rg/s10:MagicStorage:AnySilverBar] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/StorageUnit]
+					'''
+				Help4:
+					'''
+					如果你想直接用你的存储系统制作物品，你需要做一个制作接口。
+					制作配方: [i:MagicStorage/StorageComponent] [rg:MagicStorage:AnyDiamond] [i/s3:Sapphire] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/CraftingAccess]
+					'''
+				Help5:
+					'''
+					某些制作站在放进制作接口的制作站槽位内会发挥更多的效果，一些物品可以一次性满足多种制作条件。
+					[i:GlassKiln] 算作 [i:Furnace](这条原版就能做到)
+					[i:BewitchingTable] 算作 [i:WoodenTable](这条原版也能做到)
+					[rg:MagicStorage:AnyTombstone] 可满足灵雾环境的制作需求
+					[i:AlchemyTable] 算作 [i:WoodenTable] [i:Bottle](这条原版还能做到)
+					[rg:MagicStorage:AnyTable] 算作 [i:WoodenChair](原版桌子只能作为桌子，放进制作接口后的桌子同时提供了桌子椅子两种制作环境)
+					'''
+				Help6:
+					'''
+					[i:AlchemyTable] 仍然保有其33%的几率不消耗材料的效果
+					[i:WaterBucket] [i:BottomlessBucket] [rg:MagicStorage:AnySink] 以及其他算作水源的物品都可以满足需要水的配方
+					[i:LavaBucket] 可满足需要熔岩的制作配方
+					[i:HoneyBucket] 可满足需要蜂蜜的制作配方
+					[i:MagicStorage/DemonAltar] [i:MagicStorage/CrimsonAltar] 算作恶魔祭坛与猩红祭坛
+					[i:MagicStorage/SnowBiomeEmulator] 可满足需要处于雪地环境的制作配方
+					'''
+				Help7:
+					'''
+					存储系统的一切元件都必须连接在一起，如果你想令 [i:MagicStorage/StorageUnit] 远离你的 [i:MagicStorage/StorageHeart] ，你可以用存储连接器来连接它们
+					制作配方: [rg/s16:Wood] [rg:IronBar] @ [rg:MagicStorage:AnyWorkBench] = [i/s16:MagicStorage/StorageConnector]
+					'''
+				Help8: 一颗暗影钻石隐藏在所有Boss的核心部位，这种被诅咒的宝石可以用来替代所有魔法储存配方中的[i:Diamond]。一旦你从某个Boss那里得到了暗影钻石，你就不能再从它那里获得了。然而，有些Boss会掉落不止一颗。
+				Help9:
+					'''
+					存储系统被物品塞满了？用存储升级珠升级你的存储单元吧！存储升级珠可以升级前一级别的存储单元，以下是级别表。
+					[i:MagicStorage/StorageUnit] -> [i:MagicStorage/StorageUnitDemonite] / [i:MagicStorage/StorageUnitCrimtane]
+					[i:MagicStorage/StorageUnitDemonite] -> [i:MagicStorage/StorageUnitHellstone]    [i:MagicStorage/StorageUnitCrimtane] -> [i:MagicStorage/StorageUnitHellstone]
+					[i:MagicStorage/StorageUnitHellstone] -> [i:MagicStorage/StorageUnitHallowed]    [i:MagicStorage/StorageUnitHallowed] -> [i:MagicStorage/StorageUnitBlueChlorophyte]
+					[i:MagicStorage/StorageUnitBlueChlorophyte] -> [i:MagicStorage/StorageUnitLuminite]    [i:MagicStorage/StorageUnitLuminite] -> [i:MagicStorage/StorageUnitTerra]
+					(1/2)
+					'''
+				Help10:
+					'''
+					如果你在除存储中枢外的其他位置来存取物品，试试用存储访问器吧！将其与存储中枢连接，你就可以直接从存储访问器打开你的存储中枢。
+					制作配方: [i:MagicStorage/StorageComponent] [rg:MagicStorage:AnyDiamond] [i/s3:Topaz] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/StorageAccess]
+					'''
+				Help11:
+					'''
+					以防制作接口的制作站槽位内存放了太多制作站，魔法存储添加了生态球。这个物品提供了雪地环境、灵雾环境、篝火、水、熔岩、蜂蜜、恶魔/猩红祭坛的制作环境。如果把它放在物品栏内，还可以直接制作烤棉花糖，而不需要站在篝火旁边等它烤熟。
+					(人话：生态球能提供雪地环境、灵雾环境、篝火、水、熔岩、蜂蜜、恶魔/猩红祭坛的制作环境，在背包内也生效)
+					制作配方: [rg/s5:MagicStorage:AnyTombstone] [i:MagicStorage/SnowBiomeEmulator] [i/s5:WaterBucket] [i/s5:LavaBucket] [i/s5:HoneyBucket] [rg/s3:MagicStorage:AnyCampfire] = [i:MagicStorage/BiomeGlobe] (无合成条件需求)
+					'''
+				Help12:
+					'''
+					有时，你想在世界的其他区域访问你的存储中枢，但用存储连接器连接又麻烦又耗材。你可以制作一个远程中枢，并用定位器 [i:MagicStorage/Locator] 或定位磁盘 [i:MagicStorage/LocatorDisk] 将地图上已有的存储中枢的定位导入到其上，来使其连接到存储中枢。
+					制作配方:
+					[i:MagicStorage/StorageComponent] [rg/s3:MagicStorage:AnyDiamond] [i/s3:Ruby] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/RemoteAccess]
+					[i/s10:MeteoriteBar] [i/s2:Amber] @ [rg:MagicStorage:AnyPreHmAnvil] = [i:MagicStorage/Locator]
+					[i/s25:MartianConduitPlating] [i/s2:LunarBar] @ [i:LunarCraftingStation] = [i:MagicStorage/LocatorDisk]
+					'''
+				Help13: 你可以将存储元件连接到远程中枢上，这些元件能够访问该远程中枢连接的主存储系统，这意味着可以拥有一个离存储中枢很远的的制作接口。
+				Help14: 存储单元魔杖可以停用 [i:MagicStorage/StorageUnit]。停用的 [i:MagicStorage/StorageUnit] 不再能够存储物品，其原先存储的物品会在存储中枢的作用下转移到与其相连的其他 [i:MagicStorage/StorageUnit] 中。如果它没有连接到任何存储中枢，物品仍会存储在停用的 [i:MagicStorage/StorageUnit] 内。
+				Help15:
+					'''
+					为了方便制作，魔法存储添加了可放置的恶魔祭坛和猩红祭坛。破坏它们不会有任何特殊效果，只能作为制作站使用。
+					制作配方:
+					[i/s10:DemoniteBar] [i/s15:ShadowScale] @ [i:MagicStorage/DemonAltar] = [i:MagicStorage/DemonAltar]
+					[i/s10:CrimtaneBar] [i/s15:TissueSample] @ [i:MagicStorage/CrimsonAltar] = [i:MagicStorage/CrimsonAltar]
+					'''
+				Help16:
+					'''
+					以防制作接口的制作站槽位内存放了太多制作站，魔法存储添加了一系列综合制作站。每个综合制作站都能提供其制作材料能够提供的制作站条件。
+					制作配方:
+					[rg:MagicStorage:AnyWorkBench] [i:Furnace] [rg:MagicStorage:AnyPreHmAnvil] [rg:MagicStorage:AnyBottle] [rg:MagicStorage:AnySink] [i:Sawmill] [i:Loom] [rg:MagicStorage:AnyTable] @ 空手 = [i:MagicStorage/CombinedStations1Item]
+					[i:MagicStorage/CombinedStations1Item] [i:Hellforge] [i:AlchemyTable] [rg:MagicStorage:AnyCookingPot] [i:TinkerersWorkshop] [i:DyeVat] [i:HeavyWorkBench] [i:Keg] [i:TeaKettle] @ 空手 = [i:MagicStorage/CombinedStations2Item]
+					[i:MagicStorage/CombinedStations2Item] [i:ImbuingStation] [rg:MagicStorage:AnyHmAnvil] [rg:MagicStorage:AnyHmFurnace] [rg:MagicStorage:AnyBookcase] [i:CrystalBall] [i:BlendOMatic] [i:MeatGrinder] @ 空手 = [i:MagicStorage/CombinedStations3Item]
+					'''
+				Help17:
+					'''
+					以防制作接口的制作站槽位内存放了太多制作站，魔法存储添加了一系列综合家具制作站。每个综合家具制作站都能提供其制作材料能够提供的制作站条件。
+					制作配方:
+					[i:BoneWelder] [i:GlassKiln] [i:HoneyDispenser] [i:IceMachine] [i:LivingLoom] [i:SkyMill] [i:Solidifier] @ 空手 = [i:MagicStorage/CombinedFurnitureStations1Item]
+					[i:MagicStorage/CombinedFurnitureStations1Item] [i:LesionStation] [i:FleshCloningVaat] [i:SteampunkBoiler] [i:LihzahrdFurnace] @ 空手 = [i:MagicStorage/CombinedFurnitureStations2Item]
+					[i:MagicStorage/CombinedStations3Item] [i:MagicStorage/CombinedFurnitureStations2Item] [i:Autohammer] [i:LunarCraftingStation] [i/s10:LavaBucket] [i/s10:HoneyBucket] @ 空手 = [i:MagicStorage/CombinedStations4Item]
+					'''
+				Help17_NoFargo:
+					'''
+					{$Mods.MagicStorage.Dialogue.Golem.Help17}
+					[i:MagicStorage/CombinedStations3Item] [i:MagicStorage/CombinedFurnitureStations2Item] [i:Autohammer] [i:LunarCraftingStation] [i/s10:LavaBucket] [i/s10:HoneyBucket] @ 空手 = [i:MagicStorage/CombinedStations4Item]
+					'''
+				Help17_WithFargo:
+					'''
+					{$Mods.MagicStorage.Dialogue.Golem.Help17}
+					[i:MagicStorage/CombinedStations3Item] [i:MagicStorage/CombinedFurnitureStations2Item] [i:Autohammer] [i:LunarCraftingStation] [i:Fargowiltas/GoldenDippingVat] [i/s10:LavaBucket] [i/s10:HoneyBucket] @ 空手 = [i:MagicStorage/CombinedStations4Item]
+					'''
+				Help18: 月球领主守护着璀璨棱晶，这颗宝石具有不可思议的力量。你可以使用它来制作一个无距离限制的便携远程存储装置(但是无距离限制的便携远程制作装置不需要璀璨棱晶)。
+				Help19:
+					'''
+					配置接口允许其他模组添加能够影响 [i:MagicStorage/CraftingAccess] 功能的“制作功能模块”。
+					这些功能模块可以在配置接口的 UI 中开启关闭。
+					默认情况下，魔法存储的配置接口提供了能读取玩家物品栏和旅途模式复制菜单中物品的功能模块。
+					[rg/s2:MagicStorage:AnyDiamond] [i/s50:DirtBlock] [i/s50:StoneBlock] [i/s50:MudBlock] [i/s50:SnowBlock] [i/s50:SandBlock] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/EnvironmentAccess]
+					'''
+				Help20:
+					'''
+					尽管 [i:MagicStorage/RemoteAccess] 非常方便，但你如果离家远了就不能方便地访问存储系统了
+					如果你想远程访问存储中枢，可以制作一个便携远程存储装置来随时访问存储中枢
+					如果你想远程访问制作接口，可以制作一个便携远程制作装置来随时访问制作接口
+					便携远程存储装置(基础)与便携远程制作装置(基础)的配方
+					[i:MagicStorage/Locator] [rg/s20:Wood] [rg/s15:IronBar] [rg/s10:MagicStorage:AnyDemoniteBar] [rg/s3:MagicStorage:AnyDiamond] [i/s3:Ruby] @ [rg:MagicStorage:AnyPreHmAnvil] = [i:MagicStorage/PortableAccessPreHM]
+					[i:MagicStorage/Locator] [rg/s20:Wood] [rg/s15:IronBar] [rg/s10:MagicStorage:AnyDemoniteBar] [rg/s3:MagicStorage:AnyDiamond] [i/s3:Sapphire] @ [rg:MagicStorage:AnyPreHmAnvil] = [i:MagicStorage/PortableCraftingAccessPreHM]
+					'''
+				Help20_Mechs:
+					'''
+					{$Mods.MagicStorage.Dialogue.Golem.Help20}
+					便携远程存储装置(进阶)与便携远程存储装置(进阶)的配方
+					[i:MagicStorage/PortableAccessPreHM] [i/s20:Pearlwood] [rg/s15:MagicStorage:AnyMythrilBar] [i/s10:ChlorophyteBar] @ [rg:MagicStorage:AnyHmAnvil] = [i:MagicStorage/PortableAccessHM]
+					[i:MagicStorage/PortableCraftingAccessPreHM] [i/s20:Pearlwood] [rg/s15:MagicStorage:AnyMythrilBar] [i/s10:ChlorophyteBar] @ [rg:MagicStorage:AnyHmAnvil] = [i:MagicStorage/PortableCraftingAccessHM]
+					'''
+				Help20_Moon:
+					'''
+					{$Mods.MagicStorage.Dialogue.Golem.Help20_Mechs}
+					便携远程制作装置(终极)与便携远程制作装置(终极)的配方
+					[i:MagicStorage/PortableAccessHM] [i/s15:MartianConduitPlating] [i/s8:LunarBar] [i:MagicStorage/RadiantJewel] @ [i:LunarCraftingStation] = [i:MagicStorage/PortableAccess]
+					[i:MagicStorage/PortableCraftingAccessHM] [i/s20:MartianConduitPlating] [i/s15:LunarBar] @ [i:LunarCraftingStation] = [i:MagicStorage/PortableCraftingAccess]
+					'''
+				Help21:
+					'''
+					使用存储升级珠右键点击上一级的存储单元也可以使其升级
+					[i:MagicStorage/StorageUnit] + [i:MagicStorage/UpgradeDemonite] -> [i:MagicStorage/StorageUnitDemonite]    [i:MagicStorage/StorageUnit] + [i:MagicStorage/UpgradeCrimtane] -> [i:MagicStorage/StorageUnitCrimtane]
+					[i:MagicStorage/StorageUnitDemonite] + [i:MagicStorage/UpgradeHellstone] -> [i:MagicStorage/StorageUnitHellstone]    [i:MagicStorage/StorageUnitCrimtane] + [i:MagicStorage/UpgradeHellstone] -> [i:MagicStorage/StorageUnitHellstone]
+					[i:MagicStorage/StorageUnitHellstone] + [i:MagicStorage/UpgradeHallowed] -> [i:MagicStorage/StorageUnitHallowed]    [i:MagicStorage/StorageUnitHallowed] + [i:MagicStorage/UpgradeBlueChlorophyte] -> [i:MagicStorage/StorageUnitBlueChlorophyte]
+					[i:MagicStorage/StorageUnitBlueChlorophyte] + [i:MagicStorage/UpgradeLuminite] -> [i:MagicStorage/StorageUnitLuminite]    [i:MagicStorage/StorageUnitLuminite] + [i:MagicStorage/UpgradeTerra] -> [i:MagicStorage/StorageUnitTerra]
+					(2/2)
+					'''
+				Help22:
+					'''
+					本单元检测到你目前处在多人游戏世界中，因此，[i:MagicStorage/StorageHeart] 中的一些功能被锁定在 [c/cccc00:服务器操作者] 权限后。
+					要成为 [c/cccc00:服务器操作者]，必须使用 [c/ff6a00:/msreqop] 指令。成功使用此指令将授予你 [c/cc0000:服务器管理员] 权限。
+					一旦拥有 [c/cc0000:服务器管理员] 权限，你可以使用 [c/ff6a00:/msop] 指令授予其他玩家 [c/cccc00:服务器操作者] 权限，或使用 [c/ff6a00:/msdeop] 移除其权限。
+					这两个权限会在你断开服务器时失效。
+					[c/ffff00:魔法存储服务器配置] 中有一个选项可以在启用时强制房主为 [c/cc0000:服务器管理员]。
+					'''
+				Help23:
+					'''
+					移动一个存储系统很麻烦，特别是当你存储了大量物品的时候。你可以使用存储核心扳手来将存储核心从已放置的存储单元内取出。
+					[i:Wrench] + [i:MagicStorage/StorageComponent] + [i/s10:Wire] + [rg/s5:IronBar] @ [rg:MagicStorage:AnyPreHmAnvil] = [i:MagicStorage/StorageExtractor]
+					取出存储核心的存储单元会变为可以被挖掘掉落的 [i:MagicStorage/StorageUnitEmpty]，这样你就可以挖掉它并重新放置了。
+					(1/2)
+					'''
+				Help24:
+					'''
+					将一个 [i:MagicStorage/CraftingAccess] 丢入微光中来将其转化为一个微光接口，该接口可以用来微光嬗变存储系统中的物品。
+					所有微光嬗变都是可行的: 分解物品，将物品转化为其他物品，消耗钱币来获取钱币幸运值，以及通过微光嬗变特定物品来生成 NPC。
+					'''
+				Help25:
+					'''
+					默认情况下，所有 [i:MagicStorage/StorageHeart] （及与其相连的元件）允许任何人访问。
+					为了让你的存储系统更安全，可以制作一个存储安全魔杖。手持它左键点击 [i:MagicStorage/StorageHeart] 可打开安全网络系统。
+					在安全网络系统的UI界面中，你可以创建一个安全网络，当其被设置为私人网络时， [i:MagicStorage/StorageHeart] 及与其相连元件将需要玩家输入密码来访问。
+					在安全网络系统的UI界面中左键双击一个安全网络来将其分配给当前用来访问存储系统的 [i:MagicStorage/StorageHeart] 。
+					配方: [i/s3:GoldenKey] [i/s25:Wire] [rg/s5:IronBar] [i:MagicStorage/StorageComponent] [i/s6:Amber] @ [rg:MagicStorage:AnyPreHmAnvil] = [i:MagicStorage/StorageSecurity]
+					'''
+				Help26_Header: 觉得 UI 界面的文本输入提示不好用？这里有一些实用操作可以帮你：
+				Help26:
+					'''
+					{$Mods.MagicStorage.Dialogue.Golem.Help26_Header}
+					当提示框处于焦点时：
+					  [c/cccc00:Ctrl + Z] 清空
+					  [c/cccc00:Ctrl + X] 或 [c/cccc00:Shift + Delete] 复制到剪贴板并清空
+					  [c/cccc00:Ctrl + C] 复制到剪贴板
+					  [c/cccc00:Ctrl + V] 或 [c/cccc00:Shift + Insert] 从剪贴板粘贴
+					(1/3)
+					'''
+				Help27:
+					'''
+					{$Mods.MagicStorage.Dialogue.Golem.Help26_Header}
+					当提示框处于焦点时：
+					[c/cccc00:Ctrl + Backspace] 删除上一个以空格分隔的单词
+					  [c/cccc00:Left Arrow] and [c/cccc00:Right Arrow] 将光标左右移动一个字符的距离
+					  [c/cccc00:Home] and [c/cccc00:End] 将光标移动到句首和句尾
+					  [c/cccc00:Escape] or [c/cccc00:Right Click] 提示框 来恢复已更改内容
+					(2/3)
+					'''
+				Help28:
+					'''
+					{$Mods.MagicStorage.Dialogue.Golem.Help26_Header}
+					当提示框未处于焦点时：
+					  [c/cccc00:Right Click] 提示框 来清空
+					(3/3)
+					'''
+				Help29:
+					'''
+					手持存储核心右键 [i:MagicStorage/StorageUnitEmpty], 来将其插入。
+					  [i:MagicStorage/StorageUnit] -> [i:MagicStorage/StorageCore]    [i:MagicStorage/StorageUnitDemonite] -> [i:MagicStorage/StorageCoreDemonite]
+					  [i:MagicStorage/StorageUnitCrimtane] -> [i:MagicStorage/StorageCoreCrimtane]    [i:MagicStorage/StorageUnitHellstone] -> [i:MagicStorage/StorageCoreHellstone]
+					  [i:MagicStorage/StorageUnitHallowed] -> [i:MagicStorage/StorageCoreHallowed]    [i:MagicStorage/StorageUnitBlueChlorophyte] -> [i:MagicStorage/StorageCoreBlueChlorophyte]
+					  [i:MagicStorage/StorageUnitLuminite] -> [i:MagicStorage/StorageCoreLuminite]    [i:MagicStorage/StorageUnitTerra] -> [i:MagicStorage/StorageCoreTerra]
+					(2/2)
+					'''
+			}
+
+			ChatOptions: {
+				Golem: {
+					NextHelp: 下一条
+					PrevHelp: 上一条
+				}
+			}
+
+			NewHelpAvailable: 可从自动机处了解新的帮助提示。
+		}
+
+		Active: 已启用
+		Inactive: 已禁用
+		PortableAccessUnlocated: 尚未保存任何存储中枢的定位
+		PortableAccessMissing: 目标定位没有存储中枢！
+		PortableAccessOutOfRange: 超出所连存储系统的连接范围
+		PortableAccessNoPylons: 所连存储系统未在晶塔范围内
+		PortableCraftingUnlocated: 尚未保存任何制作接口的定位
+		PortableCraftingMissing: 目标定位没有制作接口！
+		RemoteAccessSuccess: 已成功定位到存储中枢！
+		RemoteAccessHasLocator: 该远程中枢已定位到了一个存储中枢，请挖掉并重新放置来重置定位点
+		RemoteAccessUnlocated: 当前定位器尚未保存定位点
+		RemoteAccessInvalidLocator: 定位器的目标定位没有存储中枢
+		StorageUnitActivated: 该存储单元已启用
+		StorageUnitDeactivated: 该存储单元已停用
+		FilterAllMods: 所有物品
+		Capacity: 容量: {0} / {1}
+		LocatorSet: 已连接至 [{0}, {1}]
+		StorageAccessFail: 无法加载存储中枢！
+		StorageAccessFailAlt: 该存储访问器没有与存储中枢连接！
+		StorageAccessFailLoad: 存储中枢区域未加载！请再试一次
+		TestItemSuffix: " !直到重生!"
+		SetTo: 已连接至 [{0}, {1}]
+		SnowBiomeBlock: 雪地环境方块
+		DepositAll: 全部存入
+		CraftingStations: 制作站
+		CraftTooltip: 左键单击以制作
+		CraftTooltipOld: 左键单击以制作（按住Ctrl全部制作）
+
+		Crafting: {
+			Plus1: +1
+			Plus10: +10
+			Plus100: +100
+			Minus1: "-1"
+			Minus10: "-10"
+			Minus100: "-100"
+			MaxStack: 设为最大值
+			Reset: 重置
+			Amount: 数量: {0}
+		}
+
+		Search: 搜索
+		SearchName: 以名称搜索
+		SearchMod: 以模组搜索
+		SortWaiting: 加载中...
+
+		SearchTips: {
+			SearchName: 以名称搜索
+			SearchMod: @模组名 以模组搜索
+			SearchTooltip: "#物品介绍 以介绍搜索"
+			SearchModAndTooltip: @模组名 #物品介绍
+			TipModAndTooltip: "[c/ffff00:@ModName] 按照所属模组搜索, [c/ffff00:#Search Tooltip] 按照物品介绍搜索（可按此顺序组合使用）"
+			TipTooltipOnly: "[c/ffff00:#Search Tooltip] 按照物品介绍搜索"
+		}
+
+		Recipes: 合成配方
+		RecipeAvailable: 显示可合成配方
+		RecipeAll: 显示全部配方
+		RecipeBlacklist: 显示被隐藏的配方（Ctrl+左键单击任意配方以切换隐藏状态）
+		SelectedRecipe: 选择配方
+		Ingredients: 材料
+		StoredItems: 存储中的材料
+		ShowOnlyFavorited: 仅显示收藏配方
+		ViewHistory: 点击查看制作历史记录
+		ClearHistory: 清除记录
+		PrevHistory: 上一个配方
+		NextHistory: 下一个配方
+		PanelTooSmol:
+			'''
+			无法打开魔法存储UI，因为游戏面板高度太小了，无法正常显示UI界面
+			请在设置中拉低UI缩放比例或在视频设置中提高游戏分辨率
+			'''
+		ForcedLayoutChange:
+			'''
+			当前UI界面长度设置过短，无法正常显示UI界面。
+			强制将UI布局为“Modern page”以分配更多的垂直空间。
+			'''
+
+		Warnings: {
+			StorageDefaultToAllItems: 当前筛选模式下搜索不到任何物品，即使存储中有相应物品。目前显示的是搜索所有物品的结果
+			StorageDefaultToAllMods: 当前筛选模式下搜索不到任何物品，即使存储中有相应物品。目前显示的是搜索所有物品的结果
+			CraftingNoBlacklist: 由于黑名单设置搜索不到任何配方。目前显示的是搜索所有配方的结果
+			CraftingDefaultToAllMods: 此模组中搜索不到任何配方。目前显示的是搜索所有配方的结果
+			DeleteItemsFailed: 删除操作因未知原因失败。请重试，或在必要时手动删除物品。
+			DeleteDataFailed: 删除操作因未知原因失败。某些物品可能仍包含未加载的模组数据。
+			DecraftingNoBlacklist: 尽管存在黑名单物品，但未显示任何物品。已忽略物品黑名单设置。
+			DecraftingDefaultToAllMods: 尽管存在来自其他模组的物品，但未显示任何物品。已默认切换为 "{$Mods.MagicStorage.FilterAllMods}" 模组筛选。
+		}
+
+		RecipeHidden: 隐藏物品 "{0}" 的制作配方
+		RecipeRevealed: 显示物品 "{0}" 的制作配方
+		RecipeHiddenGlobal: 全局隐藏物品 "{0}" 的制作配方
+		RecipeRevealedGlobal: 全局显示物品 "{0}" 的制作配方
+
+		RecipeConditions: {
+			EctoMistOverride: "{$Conditions.InGraveyard} / {$Mods.MagicStorage.Items.CombinedStations4Item.DisplayName}"
+			CookedMarshmallowCondition: 存放于制作接口中的生态球
+		}
+
+		DepositTooltip: 快速堆叠 - 左键 | 存放全部 - Ctrl+左键 | 补货 - 右键
+		DepositTooltipAlt: 快速堆叠 - Ctrl+左键 | 存放全部 - 左键 | 补货 - 右键
+
+		ServerOperator: {
+			ConfigChangeDenied: 只有具有服务器操作者权限或更高权限的用户才能修改此配置
+			ControlRequirement: 此控件需要服务器操作者权限
+
+			CommandInfo: {
+				Descriptions: {
+					reqop: 向服务器请求（魔法存储的）服务器管理员权限
+					op: 给予客户端 <number>（魔法存储的）服务器操作者权限
+					deop: 移除客户端 <number>（魔法存储的）服务器操作者权限
+					whois: 显示每个玩家的客户端索引
+					whoami: 显示当前玩家的客户端索引
+				}
+
+				NoArguments: 不需要任何参数
+				MultiplayerOnly: 此命令只能由多人模式客户端使用
+				AlreadyAdmin: 该玩家已经拥有服务器管理员权限
+				OneIntArgument: 需要一个整数参数
+				ArgumentNotByte: 参数必须是 0 到 255 之间的正整数
+				MultiplayerAdminOnly: 此命令只能由拥有服务器管理员权限的多人模式客户端使用
+				NotConnected: 客户端 {0} 未连接到服务器
+				ClientAlreadyOp: 客户端 {0} 已经拥有服务器操作者权限
+				ClientAlreadyDeop: 客户端 {0} 本来就没有服务器操作者权限
+				MultiplayerOperatorOnly: 此命令只能由拥有服务器操作者权限的多人模式客户端使用
+				Players: 玩家：
+				YouAreClient: 你是客户端 {0}
+				ServerKeyText:
+					'''
+					=====
+					这段文本只显示一次!
+					服务器操作员/管理员 Key: {0}
+					=====
+					'''
+				ClientKeyText: === 输入打印在服务器控制台和日志文件中的密钥 ===
+				ClientKeyResponseFailed: 输入的密钥与服务器存储的密钥不匹配。
+				ClientKeyResponseSuccess: 已成功添加魔法存储服务器操作者和管理员权限。
+			}
+		}
+
+		AuditLogging: {
+			CommandInfo: {
+				Descriptions: {
+					msaudit:
+						'''
+						将魔法存储世界的审计日志转换为可读格式
+						生成文件的名称来源于世界文件名，并存放在 Worlds 文件夹中
+						'''
+					msauditclear: 清除魔法存储世界的审计日志
+				}
+
+				NoArguments: 不需要任何参数
+				MultiplayerOnly: 此命令只能由服务器控制台使用
+				NoLogFile: 此世界未找到魔法存储的审计日志文件
+				LoggingDisabled: 魔法存储的审计日志记录在配置中已被禁用，请先启用
+				AdminOnly: 此命令只能由服务器控制台或拥有服务器管理员权限的多人模式客户端使用
+			}
+
+			Errors: {
+				Client: {
+					NoBuffers: 翻译审计文件因为缺少缓冲区而无法写入
+					IncompleteBuffers: 翻译审计文件由于某些部分未被接收而无法写入
+					MismatchedBufferCount: 翻译审计文件由于接收到的数据段数量 ({0}) 与预期数量 ({1}) 不匹配而无法写入
+				}
+
+				LoadFailed: 无法加载审计文件
+				SaveFailed: 无法保存审计文件
+				TranslationFailed: 无法将翻译后的审计日志写入文件
+				TranslationAlreadyRunning: 魔法存储审计日志正在翻译，请等待翻译完成
+				ClearingAlreadyRunning: 魔法存储审计日志正在被删除, 请等待删除完成
+			}
+
+			Messages: {
+				Client: {
+					RequestSent: 已将命令请求发送到服务器，请在服务器控制台或日志中查看信息
+					TranslationSuccess: 翻译成功！魔法存储审计日志已翻译到：
+				}
+
+				LoadSuccess: 已从 {0} 加载魔法存储审计日志
+				SaveSuccess: 已保存魔法存储审计日志到：{0}
+				TranslationFileNotLoaded: 魔法存储审计日志尚未加载，正在强制加载后再进行翻译…
+				TranslationStarted: 正在将魔法存储审计日志翻译为可读格式…
+				TranslationSuccess: 魔法存储审计日志已翻译到：{0}
+				ClearingStarted: 即将清理魔法存储审计日志…
+				ClearingSuccess: 魔法存储审计日志已清理，正在序列化空文件
+			}
+		}
+
+		StorageGUI: {
+			ForceRefreshButton: 强制刷新UI
+			CompactCoinsButton: 合并钱币
+			DestroyUnloadedButton: 删除已卸载模组的物品
+			DestroyUnloadedDataButton: 删除已卸载模组的数据
+			DepositPiggyBank: 转移猪猪存钱罐物品
+			DepositSafe: 转移保险箱物品
+			DepositForge: 转移护卫熔炉物品
+			DepositVault: 转移虚空保险库物品
+			InitShowcaseButton: 初始化显示物品
+			ResetShowcaseButton: 重置显示物品
+			ClearItemsButton: 清空所有物品
+			FillWithGarbage: 填充随机物品
+			SellDuplicatesHeader: 出售同种物品
+			SellDuplicatesButton: 出售
+			SetAStorageName: 在此输入名称…
+			NameWasCleared: 名称已被清除
+			NameWasSetTo: 名称已设置为：{0}
+
+			ItemDeletionMode: {
+				Label: 物品删除模式
+				Enabled: 物品删除模式已 [c/00ff00:启用]。
+				Disabled: 物品删除模式已 [c/ff0000:禁用]。
+			}
+
+			SellDuplicatesMenu: {
+				Label: 物品出售模式
+				Enabled: 物品出售模式已 [c/00ff00:启用]。
+				Disabled: 物品出售模式已 [c/ff0000:禁用]。
+				NoPrefix: 出售所有同种无词缀物品
+				KeepMostValue: 保留最值钱的物品
+				KeepLeastValue: 保留最不值钱的物品
+
+				SoldItemsReport: {
+					GotCoins: "{0}/{1} 个物品已售出，总价为 {2}"
+					NoCoins: "{0}/{1} 个物品已售出，但没有任何价值"
+					NoSell: 没有物品被出售
+					PacketTooLarge: 待出售的物品堆数量过多，无法一次性发送数据包。请减少出售的物品数量后重试。
+				}
+			}
+
+			SellQuantityPopup: {
+				Label: Quantity:
+				HintText: "0"
+			}
+
+			ActiveNetwork: {
+				None: 激活的安全网络: 未分配
+				Assigned: 激活的安全网络: {0}
+			}
+		}
+
+		CraftingGUI: {
+			ShowAllIngredients: 显示所有可能的材料
+
+			RecursionErrors: {
+				NoRecipe: "[c/ff0000:模拟未能找到有效的递归树，已回退到原配方]"
+				NoObjects: "[c/ff0000:模拟未能找到有效的递归树，已回退到原配方的所需物品]"
+				NoIngredients: "[c/ff0000:模拟未能找到有效的递归树，已回退到原配方的材料]"
+			}
+		}
+
+		HoverText: {
+			Reset: 重置界面位置和大小
+
+			Errors: {
+				RenderFail: 出现错误，这个物品不能被显示。
+				NetFail: 这个物品在当前客户端加载失败。
+			}
+
+			TestItems: {
+				NoTooltip: ""
+				RenderFail: Error Test: 物品显示中
+				NetFail: Error Test: 物品加载中
+			}
+		}
+
+		EnvironmentGUI: {
+			EntryDisabledDefault: 该功能模块已被禁用
+			NoModules:
+				'''
+				没有检测到任何跨模组功能模块
+				没有任何模组为魔法存储添加了跨模组功能模块
+				'''
+		}
+
+		DecraftingGUI: {
+			StoredResults: 已储存的微光嬗变结果物品
+			ShimmeringReports: 微光嬗变结果
+			ItemHidden: 物品“{0}”已被加入黑名单。
+			ItemRevealed: 物品“{0}”已被加入白名单。
+			ItemHiddenGlobal: 物品“{0}”已被加入全局黑名单。
+			ItemRevealedGlobal: 物品“{0}”已被加入全局白名单。
+			ShimmerButton: 微光嬗变
+			ShimmerButtonTooltip: 左键点击以微光嬗变物品
+			ShimmerButtonTooltipOld: 左键点击以微光嬗变物品（按住 Ctrl 可一次转换最大数量）
+			ShimmerAmount: 正在微光嬗变：{0}
+
+			ShimmerReports: {
+				DoesNotShimmer: 未找到微光嬗变结果
+				CoinLuck: +{0}% 幸运（+{1:0.##} 价值）
+
+				NPCSpawn: {
+					DirectTransform: "{0}"
+					IndirectTransform: "{0}（样式 #{1}）"
+				}
+			}
+		}
+
+		FilteringOption: {
+			All.Tooltip: 全部
+			Weapons.Tooltip: 武器
+			Tools.Tooltip: 工具
+			Equips.Tooltip: 饰品
+			WeaponsMelee.Tooltip: 近战武器
+			WeaponsRanged.Tooltip: 远程武器
+			WeaponsMagic.Tooltip: 魔法武器
+			WeaponsSummon.Tooltip: 召唤武器
+			WeaponsThrown.Tooltip: 投掷武器
+			Ammo.Tooltip: 弹药
+			Armor.Tooltip: 盔甲
+			Vanity.Tooltip: 时装
+			Potions.Tooltip: 药水
+			Tiles.Tooltip: 物块
+			Misc.Tooltip: 杂项
+			Recent.Tooltip: 最近存入的物品
+			ArmorAndEquips.Tooltip: 装备与饰品
+			WeaponsOther.Tooltip: 其他杂项武器
+			Unstackables.Tooltip: 不可堆叠物品
+			Stackables.Tooltip: 可堆叠物品
+			NotFullyResearched.Tooltip: 未完全研究的物品
+			FullyResearched.Tooltip: 已完全研究的物品
+			Materials.Tooltip: 材料
+			ToolsAndFishing.Tooltip: 工具与钓鱼物品
+			Fishing.Tooltip: 钓鱼物品
+			MiscGameplayItems.Tooltip: 杂项游戏物品
+			SellingItems.Tooltip: 正在出售的物品
+		}
+
+		SortingOption: {
+			Default.Tooltip: 默认排序
+			ID.Tooltip: 按ID排序
+			Name.Tooltip: 按名称排序
+			Value.Tooltip: 按价格排序
+			Dps.Tooltip: 按DPS排序
+			QuantityAbsolute.Tooltip: 按堆叠数量排序
+			QuantityRatio.Tooltip: 按堆叠占比排序
+			Damage.Tooltip: 按伤害排序
+		}
+
+		SellingDuplicateFinders: {
+			SellAllExceptLeastExpensiveFinder.Label: 出售除最不值钱外的所有物品
+			SellAllExceptMostExpensiveFinder.Label: 出售除最值钱外的所有物品
+			SellAllItemsWithNoPrefixFinder.Label: 出售所有无词缀物品
+		}
+
+		ButtonConfigGear: Open Configuration Panel
+
+		UIPages: {
+			Sorting: 排序
+			Filtering: 筛选
+			Crafting: 合成界面
+			Storage: 存储界面
+			Shimmering: 微光嬗变界面
+			# StorageGUI page for the extra controls
+			Controls: 控件界面
+			# EnvironmentGUI page for the modules
+			Modules: 功能模块界面
+			History: 历史
+			Networks: 安全网络界面
+		}
+
+		Security: {
+			Creation.Success: "[c/00ff00:成功创建新网络]"
+			Join.Success: "[c/00ff00:成功加入网络]"
+			Removal.Success: "[c/00ff00:成功删除网络]"
+			Modification.Success: "[c/00ff00:成功修改网络设置]"
+			Access.Success: "[c/00ff00:成功授予网络访问权限]"
+			NetworkChange.Success: "[c/00ff00:成功更新此存储系统中枢的网络]"
+			NetworkNotFound: "[c/ff0000:未找到指定 ID 的网络]"
+			EmptyPassword: "[c/ff0000:私有网络的密码不能为空]"
+			EmptyName: "[c/ff0000:显示名称不能为空]"
+			InvalidPassword: "[c/ff0000:密码无效]"
+			InvalidPlayer: "[c/ff0000:玩家实例未指向有效玩家]"
+			UnauthorizedAccess: "[c/ff0000:玩家不符合访问该网络的要求]"
+			UnauthorizedModification: "[c/ff0000:玩家不符合修改该网络的要求]"
+			EntityNotFound: "[c/ff0000:请求的存储实体未找到]"
+			EntityNotAccessible: "[c/ff0000:玩家不符合访问该存储实体的要求]"
+
+			UnauthorizedNetmodeContext: {
+				Singleplayer: "[c/ff0000:单人模式下无法执行此操作]"
+				MultiplayerClient: "[c/ff0000:作为多人游戏客户端时无法执行此操作]"
+				MultiplayerServer: "[c/ff0000:作为多人游戏服务器时无法执行此操作]"
+			}
+
+			UI: {
+				NameHint: 输入网络名称
+				PasswordHint: 输入网络密码
+				Private: 私有网络
+				Public: 公有网络
+				SearchHint: 搜索网络
+				NetworkAccessQuestion: 私有网络？
+				Create: 创建新网络
+				ServerWait: 等待服务器响应...
+				RequestingPassword: 输入 {0} 的密码
+				AccessPasswordHint: 密码...
+				NoResponse: 安全响应将显示在此处
+				NoHeartAccessDenied: 拒绝访问
+				NoHeartMustConnect1: 连接分配到安全网络的 [i:MagicStorage/StorageHeart]
+				NoHeartMustConnect2: ID 为 {0} 才可访问。
+				NetworkOwner: 拥有者: {0}
+				NetworkID: ID: {0}
+
+				Modes: {
+					Search: {
+						All: 所有网络
+						Restricted: 私有网络
+						Public: 公有网络
+					}
+
+					Sort: {
+						Name: 名称 A-Z
+						NameReverse: 名称 Z-A
+						Creator: 拥有者 A-Z
+						CreatorReverse: 拥有者 Z-A
+						ID: ID 升序
+						IDReverse: ID 降序
+					}
+				}
+			}
+		}
+
+		Config: {
+			BetaLabel: 魔法存储测试版配置
+
+			Headers: {
+				Storage: "[i:MagicStorage/StorageHeart]  存储界面"
+				Crafting: "[i:MagicStorage/CraftingAccess] [i:MagicStorage/DecraftingAccess]  制作和微光界面"
+				StorageAndCrafting: "[i:MagicStorage/StorageHeart] [i:MagicStorage/CraftingAccess]  中枢和制作界面"
+				General: 常规配置
+			}
+
+			PrintTextToChat: {
+				Label: 输出日志信息到聊天框
+				Tooltip:
+					'''
+					开启以输出日志信息到聊天框
+					无论是否开启，日志信息都会被输出到client.log和server.log文件
+					'''
+			}
+
+			ShowDebugPylonRangeAreas: {
+				Label: 便携远程装置范围调试
+				Tooltip:
+					'''
+					当玩家持有便携远程装置时将显示其有效范围
+					对于具有无限范围的便携装置，则不显示
+					'''
+			}
+		}
+
+		Keybinds.PrintItemData.DisplayName: 输出物品数据
+
+		Configs: {
+			MagicStorageConfig: {
+				DisplayName: 魔法存储配置
+
+				quickStackDepositMode: {
+					Label: "[i:Chest]  快速堆叠与存入快捷键"
+					Tooltip:
+						'''
+						若开启，则存储中枢的快速堆叠功能需要按住Ctrl并左键单击使用，否则只需要左键单击即可
+						将指针移动到存储中枢的“快速存入”按钮上以了解具体信息
+						'''
+				}
+
+				useConfigFilter: {
+					Label: "[i:MagicStorage/Config_RecipeFilterAvailable] [i:MagicStorage/Config_RecipeFilterAll]  使用默认筛选项"
+					Tooltip: 开启以使用默认筛选项，关闭则会使用你上次选择的筛选项（模组重新加载后会重置至默认筛选项）
+				}
+
+				showAllRecipes: {
+					Label: "[i:MagicStorage/Config_RecipeFilterAvailable] [i:MagicStorage/Config_RecipeFilterAll]  显示所有制作配方"
+					Tooltip: 开启以默认显示所有制作配方，关闭则默认仅显示可用的制作配方
+				}
+
+				useOldCraftMenu: {
+					Label: "[i:WorkBench]  使用旧版合成界面"
+					Tooltip: 开启后，制作接口界面将使用旧版的界面
+				}
+
+				recipeBlacklist: {
+					Label: 制作配方黑/白名单
+					Tooltip: 开启后，可在制作接口界面中将制作配方加入白名单或黑名单
+				}
+
+				globalRecipeBlacklist: {
+					Label: 全局制作配方黑名单
+					Tooltip: 按住左 Ctrl + 左 Shift 再点击配方来将配方添加移除全局黑名单
+				}
+
+				clearHistory: {
+					Label: "[i:Book]  清除配方历史记录"
+					Tooltip: 在打开制作接口界面时自动清除配方历史记录
+				}
+
+				recursionCraftingDepth: {
+					Label: 配方递归深度
+					Tooltip:
+						'''
+						设置在制作接口中制作物品的最大递归深度。
+						设置为 0 可禁用此功能。
+						设置为 -1 则为无限深度。
+						'''
+				}
+
+				glowNewItems: {
+					Label: "[i:MagicStorage/Config_GlowItemGlowing] [i:MagicStorage/Config_GlowItemNotGlowing]  高亮显示新物品/配方"
+					Tooltip: 高亮显示存储中枢与制作接口中的新物品和配方
+				}
+
+				clearSearchText: {
+					Label: 自动清除搜索文本
+					Tooltip: 开启后，每次打开存储中枢的UI界面都会自动清除上一次键入的搜索文本
+				}
+
+				searchBarRefreshOnKey: {
+					Label: 搜索结果实时更新
+					Tooltip: 开启后，存储中枢与制作接口面板的搜索结果将实时更新。如果关闭，则仅在搜索栏取消聚焦(即:点击面板的其他区域)时刷新搜索结果
+				}
+
+				uiFavorites: {
+					Label: "[i:FallenStar]  收藏物品与配方"
+					Tooltip: 开启后，可在制作接口界面中收藏物品和配方
+				}
+
+				extraFilterIcons: {
+					Label: "[i:Cog]  更多排序选项"
+					Tooltip: 开启后，在存储中枢的UI界面会显示更多排序选项
+				}
+
+				buttonLayout: {
+					Label: 排序/筛选按钮布局
+					Tooltip:
+						'''
+						Legacy (主界面按钮):
+						  v0.5.6.5及以前版本的布局
+						  排序和筛选选项不单独分页
+						ModernPaged (独立分页):
+						  排序和筛选按钮单独分页
+						ModernConfigurable (自主配置):
+						  可以单独选择一些排序和筛选按钮使其出现在主界面
+						LegacyWithGear (主界面按钮+小窗按钮):
+						  如果关闭了“更多排序选项”则与v0.5.6.5及以前版本一致
+						  在主界面按钮右侧添加了一个齿轮按钮，点击后将以小窗形式显示额外的排序按钮
+						  排序和筛选选项不单独分页
+						LegacyBasicWithPaged (主界面按钮+独立分页):
+						  如果关闭了“更多排序选项”则与v0.5.6.5及以前版本一致
+						  额外的排序按钮独立分页
+						ModernDropdown (下拉菜单):
+						  在主界面添加了排序和筛选选项的下拉式菜单
+						  排序和筛选选项不单独分页
+						'''
+				}
+
+				itemDataDebug: {
+					Label: "[i:IronPickaxe]  显示物品调试信息"
+					Tooltip: 开启后，存放于存储面板的物品将显示其是否有GlobalItem数据，并允许通过按下“Print Item Data”(输出物品数据)快捷键以在聊天栏输出数据
+				}
+
+				canMovePanels: {
+					Label: 流动UI面板
+					Tooltip: 关闭后，UI界面将无法调节大小或进行拖动
+				}
+
+				automatonRemembers: {
+					Label: 自动机记住上次的帮助提示
+					Tooltip: 自动机会记住上次显示给用户的帮助提示，再次交互时将会显示出来.
+				}
+
+				globalShimmerItemBlacklist: {
+					Label: 全局物品微光嬗变黑名单
+					Tooltip: 按住左 Ctrl + 左 Shift 点击以添加/移除黑名单
+				}
+			}
+
+			ButtonConfigurationMode: {
+				Tooltip: "按钮配置模式"
+
+				Legacy: {
+					Label: Legacy
+					Tooltip: 传统Mods.MagicStorage.Configs.ButtonConfigurationMode.Legacy.Tooltip
+				}
+
+				ModernPaged: {
+					Label: Paged
+					Tooltip: 分页Mods.MagicStorage.Configs.ButtonConfigurationMode.ModernPaged.Tooltip
+				}
+
+				ModernConfigurable: {
+					Label: Configurable
+					Tooltip: 可配置Mods.MagicStorage.Configs.ButtonConfigurationMode.ModernConfigurable.Tooltip
+				}
+
+				LegacyWithGear: {
+					Label: Legacy + Configurable
+					Tooltip: 传统+可配置Mods.MagicStorage.Configs.ButtonConfigurationMode.LegacyWithGear.Tooltip
+				}
+
+				LegacyBasicWithPaged: {
+					Label: Legacy + Paged
+					Tooltip: 传统 + 分页Mods.MagicStorage.Configs.ButtonConfigurationMode.LegacyBasicWithPaged.Tooltip
+				}
+
+				ModernDropdown: {
+					Label: Dropdown
+					Tooltip: 下拉菜单Mods.MagicStorage.Configs.ButtonConfigurationMode.ModernDropdown.Tooltip
+				}
+			}
+
+			MagicStorageServerConfig: {
+				DisplayName: 魔法存储服务器配置
+
+				allowAutomatonToMoveIn: {
+					Label: 自动机入住
+					Tooltip: 允许城镇NPC“自动机”入住你的城镇
+				}
+
+				auditLog: {
+					Label: 服务器审计日志
+					Tooltip: 启用后，客户端与任何存储系统物品的交互都会记录到审计日志中
+				}
+
+				localHostAdmin: {
+					Label: 赋予本地主机 服务器管理员权限
+					Tooltip: 启用后，本地主机加入服务器时将被强制赋予服务器管理员身份
+				}
+
+				automatonHappiness: {
+					Label: 自动机好感度影响售卖价格
+					Tooltip: 禁用后，自动机将不会影响通过物品售卖模式售出的物品价格
+				}
+			}
+
+			MagicStorageBetaConfig.DisplayName: "{$Mods.MagicStorage.Config.BetaLabel}"
+		}
+	}
+}
